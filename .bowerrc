@@ -1,0 +1,5 @@
+{
+  "directory": "app/bower_components",
+   "proxy": "http://internet.visa.com:80",
+   "https-proxy": "http://internet.visa.com:443"
+}
