@@ -1,0 +1,38 @@
+{
+	"list" : [{
+	"Name" : "kafka",
+	"Department" : "Data Platform",
+	"Description" : "Kafka is a distributed, partitioned, replicated commit log service. It provides the functionality of a messaging system, but with a unique design.Kafka maintains feeds of messages in categories called topics.Processes that publish messages to a Kafka topic are called producers.Processes that subscribe to topics and process the feed of published messages are called consumers.Kafka is run as a cluster comprised of one or more servers each of which is called a broker.So, at a high level, producers send messages over the network to the Kafka cluster which in turn serves them up to consumers like this.Communication between the clients and the servers is done with a simple, high-performance, language agnostic TCP protocol. We provide a Java client for Kafka, but clients are available in many languages.Our team is providing infrastructure for Kafka design in non production,OCE and OCC.All the below Kafka Clusters are for Dev and QA for the Data platform. Kafka Application is for  application data sets, Kafka Monitoring is for monitoring data sets and Kafka SDS is for security data sets. In each one the naming of the topics needs to begin with either Dev Or QA.The Kafka Cluster you use depends on what type of data you are sending : application, monitoring or security data.",
+	"Employee" : [
+			{ "obj" : "Amrit",
+                          "role" : "backend"
+                        },			
+			{ "obj" : "Liang",
+		          "role" : "backend"
+			}
+		     ],	
+	"Visa Wiki Link" : "https://visawiki/pages/viewpage.action?spaceKey=LTAS&title=Kafka+Architecture+in+Non+Prod",
+	"Github Link" : "N/A",
+	"Start Date" : "April 14 2015",
+	"Manager" : "Igor Paller",
+	"Add Docs" :  "https://visawiki/pages/viewpage.action?pageId=179815715",
+	"Keywords" : "kafka,producer,consumer,broker,zookeeper,Amrit,Liang"
+},
+{
+	"Name" : "Monitoring and Alerting",
+	"Department" : "Data Platform",
+	"Description" : "Application logging and monitoring is a critical component of overall software quality. An effective logging and monitoring regime is essential both for detecting and diagnosing production issues and understanding patterns of user behavior. It should also be capable of predicting emerging problems so that they can be addressed before they become disruptive to end users.
+This document contains a survey of existing logging and monitoring capabilities employed by or available to Data Platform applications, an assessment of gaps in those capabilities, suggestions for short term enhancements and fixes, and a proposed LTA intended to fully address Data Platform organizational needs around logging and monitoring in a unified fashion  ",
+	"Employee" :
+			{ "obj" : "Amrit",
+              "role" : "backend"
+            },				
+	"Visa Wiki Link" : "N/A",
+	"Github Link" : "N/A",
+	"Start Date" : "January 14 2016",
+	"Manager" : "Igor Paller",
+	"Add Docs" :  "N/A",
+	"Keywords" : "Monitoring,Alerting,Bosun,OpenTSDB,Scollector,Amrit"
+}
+]
+}
