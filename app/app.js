@@ -4,7 +4,8 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.departments',
-  'myApp.view2',
+  'myApp.projects',
+  'myApp.404',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
