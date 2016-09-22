@@ -1,0 +1,30 @@
+<!-- Page Header -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Searching for 
+            <small>"{{searchWord}}"</small>
+        </h1>
+    </div>
+</div>
+
+<div class="row">
+        <h3>
+            <a href="#">Project Two</a>
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        <hr>
+
+        <div ng-repeat="item in list">
+        <ul>
+        	<li>Project Name: <b>{{ item.Name }}</b></li>
+        	<ul>
+        		<li><b>Description</b>: {{item.Description}}</li>
+        		<div ng-if="item['Visa Wiki Link'] != null">
+        			<li><a href="{{item['Visa Wiki Link']}}">Visa Wiki Link</a></li>
+        		</div>
+        	</ul>
+        </ul>
+		  
+		</div>
+
+</div>

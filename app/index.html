@@ -47,7 +47,7 @@
                     <a href="#!/departments">Departments</a>
                 </li>
                 <li>
-                    <a href="#!/departments">Projects</a>
+                    <a href="#!/projects">Projects</a>
                 </li>
             </ul>
             <div class="col-sm-3 col-md-3 pull-right">
@@ -74,9 +74,15 @@
 <div class="container">
   <div ng-view></div>
 
-  <div>
+  <!-- <div>
     Footer v<span app-version></span>
-  </div>
+  </div> -->
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Place sticky footer content here.</p>
+    </div>
+  </footer>
 </div>
 
   <!-- In production use:
@@ -89,6 +95,7 @@
   <script src="views/projects/projects.js"></script>
   <script src="views/project/project.js"></script>
   <script src="views/error/404.js"></script>
+  <script src="views/search/search.js"></script>
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
