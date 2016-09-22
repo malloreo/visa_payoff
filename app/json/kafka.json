@@ -10,10 +10,10 @@
 		          "role" : "backend"
 			}
 		     ],	
-	"Visa Wiki Link" : "https://visawiki/pages/viewpage.action?spaceKey=LTAS&title=Kafka+Architecture+in+Non+Prod",
-	"Github Link" : "N/A",
-	"Start Date" : "April 14 2015",
+	"VisaWikiLink" : "https://visawiki/pages/viewpage.action?spaceKey=LTAS&title=Kafka+Architecture+in+Non+Prod",
+	"GithubLink" : "N/A",
+	"StartDate" : "April 14 2015",
 	"Manager" : "Igor Paller",
-	"Add Docs" :  "https://visawiki/pages/viewpage.action?pageId=179815715",
+	"AddDocs" :  "https://visawiki/pages/viewpage.action?pageId=179815715",
 	"Keywords" : "kafka,producer,consumer,broker,zookeeper,amrit,liang"
 }
