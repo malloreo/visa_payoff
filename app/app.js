@@ -14,7 +14,6 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 	$locationProvider.hashPrefix('!');
 
   $routeProvider.otherwise({redirectTo: '/departments'});
-  // $routeProvider.otherwise({redirectTo: '/project'});
 
 }]);
 

@@ -15,11 +15,7 @@ angular.module('myApp.search', ['ngRoute'])
 	$scope.searchWord = searchWord;
 
 	var url = "json/search_" + searchWord + ".json";
-	// if (searchWord === "amrit"){
-	// 	url = "json/search_amrit.json";
-	// } else if (searchWord === "kafka"){
-	// 	url = "json/search_kafka.json";
-	// } else if (searchWord)
+
 	$http.get(url).success(function(data) {
 		$scope.list = data.list;
 	})
