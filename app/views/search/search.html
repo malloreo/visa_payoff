@@ -1,4 +1,14 @@
 <!-- Page Header -->
+<style>
+.box {
+    -o-text-overflow: ellipsis;   /* Opera */
+    text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+    overflow:hidden;              /* don't show excess chars */
+    white-space:nowrap;           /* force single line */
+    width: 800px;                 /* fixed width */
+}
+</style>
+
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">Searching for 
@@ -8,14 +18,14 @@
 </div>
 
 <div class="row">
-        <h3>
-            <a href="#">Project Two</a>
-        </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-        <hr>
 
         <div ng-repeat="item in list">
-        <ul>
+        <h4><b><a ng-href="#!/{{item.Name}}/detail">{{ item.Name }}</a></b></h4>
+        <div class="box">
+        	{{item.Description}}
+        </div>
+        <br>
+        <!-- <ul>
         	<li>Project Name: <b>{{ item.Name }}</b></li>
         	<ul>
         		<li><b>Description</b>: {{item.Description}}</li>
@@ -23,7 +33,7 @@
         			<li><a href="{{item['Visa Wiki Link']}}">Visa Wiki Link</a></li>
         		</div>
         	</ul>
-        </ul>
+        </ul> -->
 		  
 		</div>
 
