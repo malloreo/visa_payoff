@@ -11,19 +11,18 @@ angular.module('myApp.search', ['ngRoute'])
 
 .controller('SearchController', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
 
-	var searchWord = $routeParams.dep;
+	var searchWord = $routeParams.dep.toLowerCase();
 	$scope.searchWord = searchWord;
 
-	switch (searchWord) {
-		case "hadoop":
-			break;
-		case "amrit":
-			$http.get("json/list_of_projects_amrit.json").success(function(data) {
-				$scope.list = data.list;
-			})
-			break;
-		default:
-			break;
-	}
+	var url = "json/search_" + searchWord + ".json";
+	// if (searchWord === "amrit"){
+	// 	url = "json/search_amrit.json";
+	// } else if (searchWord === "kafka"){
+	// 	url = "json/search_kafka.json";
+	// } else if (searchWord)
+	$http.get(url).success(function(data) {
+		$scope.list = data.list;
+	})
+	
 
 }]);

@@ -10,6 +10,8 @@ angular.module('myApp.detail', ['ngRoute'])
 }])
 
 .controller('detailController', ['$scope', '$http', function($scope, $http) {
+	
+	
 	$http.get("json/kafka.json").success(function(data) {
 
         $scope.deps = data;

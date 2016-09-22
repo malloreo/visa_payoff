@@ -22,6 +22,9 @@
         <div ng-repeat="item in list">
         <h4><b><a ng-href="#!/{{item.Name}}/detail">{{ item.Name }}</a></b></h4>
         <div class="box">
+        	<div ng-if="item.Role != null">
+        		<b>Role: {{item.Role}}</b> <br/>
+        	</div>
         	{{item.Description}}
         </div>
         <br>

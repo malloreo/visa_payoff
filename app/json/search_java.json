@@ -1,0 +1,35 @@
+{
+
+	"list": [{
+		"Name": "CoreConfigUI",
+		"Department": "Network Processing",
+		"Description": "CoreConfigUI is a data entry application. It is used by banks for transaction and business information. The application helps for integrating Core and Config applications.",
+		"Employee": [{
+			"obj": "Mike",
+			"role": "backend"
+		}, {
+			"obj": "Shashank",
+			"role": "backend"
+		}],
+		"Visa Wiki Link": "https://visawiki/display/CAS/CoreConfigUI",
+		"Github Link": "N/A",
+		"Start Date": "June 14 2015",
+		"Manager": "Anand Sambasivam",
+		"Add Docs": "N/A",
+		"Keywords": "core,config,java,sts,robot,ext,node,mike,shashank"
+	}, {
+		"Name": "Java 101",
+		"Department": "Network Processing",
+		"Description": "Java POC",
+		"Employee": {
+			"obj": "Amrit",
+			"role": "backend"
+		},
+		"Visa Wiki Link": null,
+		"Github Link": "N/A",
+		"Start Date": "January 14 2016",
+		"Manager": "Igor Paller",
+		"Add Docs": "N/A",
+		"Keywords": "Monitoring,Alerting,Bosun,OpenTSDB,Scollector,Amrit,java"
+	}]
+}

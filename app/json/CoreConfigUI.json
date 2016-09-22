@@ -1,19 +1,18 @@
 {
-"Name" : "CoreConfigUI",
-"Department" : "Network Processing",
-"Description" : "CoreConfigUI is a data entry application. It is used by banks for transaction and business information. The application helps for integrating Core and Config applications.",
-"Employee" : [ 
-		{ "obj" : "Mike",
-         	  "role" : "backend"
-		},
-		{ "obj" : "Shashank",
-		  "role" : "backend",
-		}
-	     ],
-"Visa Wiki Link" : "https://visawiki/display/CAS/CoreConfigUI", 
-"Github Link" : "N/A",
-"Start Date" : "June 14 2015",
-"Manager" : "Anand Sambasivam",
-"Add Docs" : "N/A",
-"Keywords" : "core,config,java,sts,robot,ext,node,mike,shashank"
+	"Name": "CoreConfigUI",
+	"Department": "Network Processing",
+	"Description": "CoreConfigUI is a data entry application. It is used by banks for transaction and business information. The application helps for integrating Core and Config applications.",
+	"Employee": [{
+		"obj": "Mike",
+		"role": "backend"
+	}, {
+		"obj": "Shashank",
+		"role": "backend"
+	}],
+	"Visa Wiki Link": "https://visawiki/display/CAS/CoreConfigUI",
+	"Github Link": "N/A",
+	"Start Date": "June 14 2015",
+	"Manager": "Anand Sambasivam",
+	"Add Docs": "N/A",
+	"Keywords": "core,config,java,sts,robot,ext,node,mike,shashank"
 }

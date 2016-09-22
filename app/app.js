@@ -21,17 +21,12 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 $(document).ready(function() {
 	$("#srch-term").on("keyup", function() {
 		var text = $("#srch-term").val().toLowerCase();
-		switch (text) {
-			case "hadoop":
-				$("#srch-term").val("");
-				window.location = "http://localhost:8000/index.html#!/hadoop/search";
-				break;
-			case "amrit":
-				$("#srch-term").val("");
-				window.location = "http://localhost:8000/index.html#!/amrit/search";
-				break;
-			default:
-				break;
+		text = text.replace(/ /g,'');
+		var allowable = ["amrit", "kafka", "coreconfig", "java"];
+		if (allowable.indexOf(text) != -1){
+			$("#srch-term").val("");
+			var url = "http://localhost:8000/index.html#!/" + text + "/search";
+			window.location = url;
 		}
 	});
 
