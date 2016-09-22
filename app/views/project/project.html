@@ -1,7 +1,8 @@
 <!-- Page Header -->
+
 <div class="row">
     <div class="col-lg-12">
-        <h1 class="page-header">Kafka Project
+        <h1 class="page-header">{{deps.Name}}
         </h1>
     </div>
 </div>
@@ -13,19 +14,19 @@
     <strong>Team member</strong> : <a href="">Amrit Praharaj</a>, <a href="">Liang Gao</a>
 </div>
 <div>
-    <strong>Department</strong> : <a href="">Data Product Development</a>
+    <strong>Department</strong> : <a href="">{{deps.Department}}</a>
 </div>
 <div>
-    <strong>Wiki Link</strong> : <a href="https://visawiki/pages/viewpage.action?spaceKey=LTAS&title=Kafka+Architecture+in+Non+Prod">https://visawiki/pages/viewpage.action?spaceKey=LTAS&title=Kafka+Architecture+in+Non+Prod</a>
+    <strong>Wiki Link</strong> : <a href="{{deps.VisaWikiLink}}">{{deps.VisaWikiLink}}</a>
 </div>
 <div>
-    <strong>Git</strong> : N/A
+    <strong>Git</strong> : {{deps.GithubLink}}
 </div>
 <div>
-    <strong>Start Date</strong> : April 14 2015
+    <strong>Start Date</strong> : {{deps.StartDate}}
 </div>
 <div>
-    <strong>Manager</strong> : <a href="">Igor Paller</a>
+    <strong>Manager</strong> : <a href="">{{deps.Manager}}</a>
 </div>
 <div>
     <strong>Keywords</strong> : <a href="">kafka</a>,<a href="">producer</a>,<a href="">consumer</a>,<a href="">broker</a>,<a href="">zookeeper</a>
@@ -34,7 +35,7 @@
 <h2>Summary</h2>
 <div class="panel panel-default">
   <div class="panel-body">
-    Kafka is a distributed, partitioned, replicated commit log service. It provides the functionality of a messaging system, but with a unique design.Kafka maintains feeds of messages in categories called topics.Processes that publish messages to a Kafka topic are called producers.Processes that subscribe to topics and process the feed of published messages are called consumers.Kafka is run as a cluster comprised of one or more servers each of which is called a broker.So, at a high level, producers send messages over the network to the Kafka cluster which in turn serves them up to consumers like this.Communication between the clients and the servers is done with a simple, high-performance, language agnostic TCP protocol. We provide a Java client for Kafka, but clients are available in many languages.Our team is providing infrastructure for Kafka design in non production,OCE and OCC.All the below Kafka Clusters are for Dev and QA for the Data platform. Kafka Application is for  application data sets, Kafka Monitoring is for monitoring data sets and Kafka SDS is for security data sets. In each one the naming of the topics needs to begin with either Dev Or QA.The Kafka Cluster you use depends on what type of data you are sending : application, monitoring or security data.
+    {{deps.Description}}
   </div>
 </div>
 <hr>
