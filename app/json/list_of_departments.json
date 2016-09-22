@@ -1,0 +1,24 @@
+{
+	"list":[
+{
+	"Name" : "Data Platform",
+	"Description" : "Data Platform is the team which handles big data challenges in current market . We are talking about creating solutions for processing huge amounts of data with the help of open source technologies like Hadoop,Hbase,OpenTSDB,Hive etc. The insights generated from these big data solutions help Visa to make better business decisons.",
+	"Link" : "../../static/images/CIT.png"
+},
+{
+	"Name" : "Network Processing",
+	"Description" : "This is the team behind VisaNet, the payments network that connects consumers and merchants with financial institutions. The team strives to maintain quality through high-availability and high volume to enable industry collaboration and innovation today and tomorrow.",
+	"Link" : "../../static/images/DMP.png"
+},
+{
+	"Name" : "Operations and Infrastructure",
+	"Description" : "O&I, as it's nicknamed, provides best-in-class infrastructure services that are secure, scalable, continuously available, and run on software-defined infrastructures. And all of this is done with sustainability in mind -- providing infrastructure that is located in energy efficient data centers that use renewal energy to reduce our carbon footprint.",
+	"Link" : "../../static/images/DP.png"
+},
+{
+	"Name" : "Visa Research",
+	"Description" : "Visa's long-term research efforts all start with this team’s collaboration and engagement with the product and technology teams, as well as external technologists, academics, global thinkers and governments.",
+	"Link" : "../../static/images/IP.png"
+}
+		]
+}

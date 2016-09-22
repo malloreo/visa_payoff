@@ -7,57 +7,60 @@
     </div>
 </div>
 <!-- /.row -->
-
-
+<div ng-repeat="data in deps">
+    <div ng-repeat="i in [0,2]">
+    
 <div class="row">
 
     <div href="#" class="list-group-item col-lg-6">
       <a href="#">
         <div class="col-lg-4 logo">
-            <img src="../../static/images/NP.png" style="width:102px;height:89px;">
+            <img ng-src="{{data[i].Link}}" style="width:102px;height:89px;">
         </div>
         <div class="col-lg-8 dep-title">
-            Network and processing
+           {{data[i].Name}}
         </div>
       </a>
     </div>
     <div href="#" class="list-group-item col-lg-6">
       <a href="#">
         <div class="col-lg-4 logo">
-            <img src="../../static/images/CIT.png" style="width:102px;height:89px;">
+            <img ng-src="{{data[i+1].Link}}" style="width:102px;height:89px;">
         </div>
         <div class="col-lg-8 dep-title">
-            Network and processing
+            {{data[i+1].Name}}
         </div>
       </a>
     </div>
 
 </div>
-
-<div class="row">
-
-    <div href="#" class="list-group-item col-lg-6">
-      <a href="#">
-        <div class="col-lg-4 logo">
-            <img src="../../static/images/NP.png" style="width:102px;height:89px;">
-        </div>
-        <div class="col-lg-8 dep-title">
-            Network and processing
-        </div>
-      </a>
-    </div>
-    <div href="#" class="list-group-item col-lg-6">
-      <a href="#">
-        <div class="col-lg-4 logo">
-            <img src="../../static/images/CIT.png" style="width:102px;height:89px;">
-        </div>
-        <div class="col-lg-8 dep-title">
-            Network and processing
-        </div>
-      </a>
-    </div>
+</div>
 
 </div>
+<!-- Projects Row 
+<h1 ng-repeat="x in deps">
+<h1 ng-repeat="x in deps"
+{{x[0]}}</h1>
+
+<div ng-repeat="data in deps">
+    <div ng-repeat="i in [0, 1,2,3 ]">  
+ <div class="row">
+    <div class="col-md-6 portfolio-item">
+        <h3>
+            <a href="#">{{data[i].Name}}</a>
+        </h3>
+        <p>{{data[i].Description}}</p>
+          <a href="#">
+            <img class="img-responsive" ng-src="{{data[i].Description}} alt="">
+        </a>
+        
+    </div>
+    
+ </div>
+</div>
+ </div> 
+ -->
+
 
 <hr>
 

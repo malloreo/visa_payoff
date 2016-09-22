@@ -61,3 +61,7 @@ DIV.ctn {
   padding-left: 30px;
   padding-top: 20px;
 }
+
+.bold {
+  font-weight: bold;
+}

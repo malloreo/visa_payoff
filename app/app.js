@@ -5,6 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.departments',
   'myApp.projects',
+  'myApp.project',
   'myApp.404',
   'myApp.version'
 ]).
@@ -12,4 +13,5 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
   $locationProvider.hashPrefix('!');
 
   $routeProvider.otherwise({redirectTo: '/departments'});
+  $routeProvider.otherwise({redirectTo: '/project'});
 }]);
