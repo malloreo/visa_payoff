@@ -11,8 +11,7 @@ angular.module('myApp.departments', ['ngRoute'])
 
 .controller('DepartmentsController', ['$scope', '$http', function($scope, $http) {
 
-                $http.get("json/list_of_departments.json").success(function(data) {
-                                console.log(data);
+    $http.get("json/list_of_departments.json").success(function(data) {
         $scope.deps = data;
     });
 

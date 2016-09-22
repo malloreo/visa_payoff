@@ -7,13 +7,12 @@
     </div>
 </div>
 
-<div class="row">
-        <a href="#">
-            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-        </a>
-        <h3>
-            <a href="#">Project Two</a>
-        </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-        <hr>
+<div ng-repeat="item in list">
+	<div class="row">
+	    <h3>
+	        <a ng-href="{{item.DetailLink}}">{{item.Name}}</a>
+	    </h3>
+	    <p>{{item.Description}}</p>
+	    <hr>
+	</div>
 </div>

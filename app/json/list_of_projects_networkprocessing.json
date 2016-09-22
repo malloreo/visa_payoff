@@ -1,9 +1,15 @@
 {
 	"list": [{
-		"Name": "CAS on Hadoop"
+		"Name": "CAS on Hadoop",
+		"Description": "TBD",
+		"DetailLink" : "#"
 	}, {
-		"Name": "CoreConfigUI"
+		"Name": "CoreConfigUI",
+		"Description": "TBD",
+		"DetailLink" : "#"
 	}, {
-		"Name": "CWG"
+		"Name": "CWG",
+		"Description": "TBD",
+		"DetailLink" : "#"
 	}]
 }

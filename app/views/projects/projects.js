@@ -11,10 +11,22 @@ angular.module('myApp.projects', ['ngRoute'])
 
 .controller('ProjectsController', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
 
-	$scope.depName = $routeParams.dep;
-	$http.get("json/departments.json").success(function(data) {
+ 	var dep = $routeParams.dep;
+ 	if (dep != 'Data Platform' && dep != 'Network Processing') {
+ 		$location.url('/404');
+ 	}
 
-        $scope.deps = data;
+ 	var dataUrl;
+ 	if (dep == 'Network Processing') {
+ 		dataUrl = "json/list_of_projects_networkprocessing.json";
+ 	} else if (dep == 'Data Platform') {
+ 		dataUrl = "json/list_of_projects_dataplatform.json";
+ 	}
+
+ 	$scope.depName = dep;
+	$http.get(dataUrl).success(function(data) {
+
+        $scope.list = data.list;
 
     }).error(function(data, status, headers, config) {
         $location.url('/404');
