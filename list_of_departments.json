@@ -2,19 +2,23 @@
 	"list":[
 {
 	"Name" : "Data Platform",
-	"Description" : "Data Platform is the team which handles big data challenges in current market . We are talking about creating solutions for processing huge amounts of data with the help of open source technologies like Hadoop,Hbase,OpenTSDB,Hive etc. The insights generated from these big data solutions help Visa to make better business decisons."
+	"Description" : "Data Platform is the team which handles big data challenges in current market . We are talking about creating solutions for processing huge amounts of data with the help of open source technologies like Hadoop,Hbase,OpenTSDB,Hive etc. The insights generated from these big data solutions help Visa to make better business decisons.",
+	"Link" : "http://www.3dasystems.com/wp-content/themes/3da/assets/img/pdfs/3DA_PDF-Residential_Building.jpg"
 },
 {
 	"Name" : "Network Processing",
-	"Description" : "This is the team behind VisaNet, the payments network that connects consumers and merchants with financial institutions. The team strives to maintain quality through high-availability and high volume to enable industry collaboration and innovation today and tomorrow."
+	"Description" : "This is the team behind VisaNet, the payments network that connects consumers and merchants with financial institutions. The team strives to maintain quality through high-availability and high volume to enable industry collaboration and innovation today and tomorrow.",
+	"Link" : "http://orig14.deviantart.net/515d/f/2012/309/f/0/building_sample_by_warpstarx-d5k3v0h.png"
 },
 {
 	"Name" : "Operations and Infrastructure",
-	"Description" : "O&I, as it's nicknamed, provides best-in-class infrastructure services that are secure, scalable, continuously available, and run on software-defined infrastructures. And all of this is done with sustainability in mind -- providing infrastructure that is located in energy efficient data centers that use renewal energy to reduce our carbon footprint."
+	"Description" : "O&I, as it's nicknamed, provides best-in-class infrastructure services that are secure, scalable, continuously available, and run on software-defined infrastructures. And all of this is done with sustainability in mind -- providing infrastructure that is located in energy efficient data centers that use renewal energy to reduce our carbon footprint.",
+	"Link" : "http://www.modelbuildings.org/images/free-model-buildings.jpg"
 },
 {
 	"Name" : "Visa Research",
-	"Description" : "Visa's long-term research efforts all start with this team’s collaboration and engagement with the product and technology teams, as well as external technologists, academics, global thinkers and governments."
+	"Description" : "Visa's long-term research efforts all start with this team’s collaboration and engagement with the product and technology teams, as well as external technologists, academics, global thinkers and governments.",
+	"Link" : "https://i.embed.ly/1/display/resize?key=1e6a1a1efdb011df84894040444cdc60&url=http%3A%2F%2F4.bp.blogspot.com%2F-QsUz-2asHhw%2FVFMvNTxcIdI%2FAAAAAAAABHA%2FF5MJmRlqMuo%2Fs1600%2FRevit%252BBIM%252BServices.jpg"
 }
 		]
 }
